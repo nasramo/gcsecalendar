@@ -11,6 +11,7 @@ h2{
     position:sticky;
     padding-left:10px;
     height:100vh;
+    z-index:1000
 }
 .nb{
     background:#1B6962;
@@ -138,6 +139,8 @@ table{
     font-family: Trebuchet MS, Verdana, Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
+    position:relative;
+    z-index:1;
 }
 th{
     color: #555454;
